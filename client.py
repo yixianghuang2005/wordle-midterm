@@ -10,7 +10,7 @@ import threading
 import pygame
 import requests
 
-API_BASE_URL = os.environ.get("WORDLE_API_URL", "http://127.0.0.1:8000").rstrip("/")
+API_BASE_URL = os.environ.get("WORDLE_API_URL", "https://wordle-midterm-nil5.onrender.com").rstrip("/")
 WIDTH, HEIGHT = 700, 700
 BG = (18, 18, 19)
 PANEL = (27, 29, 32)
